@@ -1,8 +1,8 @@
-import ModalBootstrap from './components/ModalBootstrap.vue'
+import Padre from './components/Padre.vue'
 
 export default {
   name: 'App',
   components: {
-    ModalBootstrap
+    Padre
   }
 }
