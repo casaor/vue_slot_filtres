@@ -1,14 +1,16 @@
 import ModalBootstrap from './../components/ModalBootstrap.vue'
+import backInDown from './../components/backInDown.vue'
 
 export default {
   name: 'App',
   components: {
-    ModalBootstrap
+    ModalBootstrap,
+    backInDown
   },
   data: function () 
     {      
         return { 
-            showModal: true
+            showModal: false
     }; 
   },
   filters: {
@@ -21,5 +23,8 @@ export default {
             return (value / 1.23).toFixed(2) + '€'
             
         }
-  }
+  },
+  // update (){
+  //   this.showModal = false
+  // }
 }

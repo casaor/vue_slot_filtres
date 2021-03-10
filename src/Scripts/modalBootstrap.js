@@ -1,10 +1,1 @@
-// export default {
-//     filters:
-//     {
-        
-//     }
-//   }
-
-
-
-
+export default { }
